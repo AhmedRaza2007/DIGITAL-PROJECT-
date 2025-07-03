@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://kit.fontawesome.com/ca86787c55.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.2.1/dist/flowbite.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>DIGITAL PROJECT </title>
+
+</head>
+
+<body class="bg-white">
+  <header>
+    <nav class="py-4 w-full">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 lg:px-12 lg:pr-28">
+
+        <a href="#" class="flex items-center space-x-3">
+          <img src="./img/logo.svg" class="h-10" alt="Logo" />
+        </a>
+
+        <div class="hidden md:flex items-center space-x-20 font-normal text-black text-base">
+          <a href="#" class="hover:border-y-2 font-bold border-y-1 text-[12px]">Main</a>
+          <a href="#" class="hover:border-y-2 font-bold text-[12px]">GALLERY</a>
+          <a href="#" class="hover:border-y-2 font-bold text-[12px]">PROJECTS</a>
+          <a href="#" class="hover:border-y-2 font-bold text-[12px]">CERTIFICATIONS</a>
+          <a href="#" class="hover:border-y-2 font-bold text-[12px]">CONTACTS</a>
+        </div>
+
+        <input type="checkbox" id="menu-toggle" class="peer hidden">
+        <label for="menu-toggle" class="md:hidden flex items-center cursor-pointer">
+          <svg class="w-6 h-6 text-black" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </label>
+
+        <div class="w-full mt-4 hidden peer-checked:block md:hidden" id="mobile-menu">
+          <ul class="flex flex-col gap-2 text-sm text-black font-medium">
+            <li><a href="#" class="block py-2 px-3 hover:border-y-2 font-bold  text-[12px]">Main</a></li>
+            <li><a href="#" class="block py-2 px-3 hover:border-y-2 font-bold text-[12px]">GALLERY</a></li>
+            <li><a href="#" class="block py-2 px-3 hover:border-y-2 font-bold text-[12px]">PROJECTS</a></li>
+            <li><a href="#" class="block py-2 px-3 hover:border-y-2 font-bold text-[12px]">CERTIFICATIONS</a></li>
+            <li><a href="#" class="block py-2 px-3 hover:border-y-2 font-bold text-[12px]">CONTACTS</a></li>
+            <li><a href="#"
+                class="block py-2 px-3 border border-yellow-500 text-yellow-700 font-semibold rounded-full text-center hover:bg-yellow-500 hover:text-white">
+                Beratung Vereinbaren →
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <div class="grid grid lg:grid-cols-12 md:grid-cols-2 grid-cols-1 px-4">
+      <div class="col-span-5 flex flex-col justify-end lg:p-8 lg:pb-0 py-8 relative">
+        <div>
+          <div class="text-[#BDBDBD] text-6xl font-light">PROJECT</div>
+          <div class="text-6xl font-bold text-gray-900 mt-2">Lorum</div>
+        </div>
+
+        <div class="flex items-center gap-4 mt-10 lg:mt-18 lg:text-[12px] text-[26px]">
+          <button class="border border-gray-300 rounded px-4 py-2">
+            ←
+          </button>
+          <button class="border border-gray-300 rounded px-4 py-2">
+            →
+          </button>
+        </div>
+
+        <div class="text-sm text-gray-400 mt-10 lg:mt-18 lg:mb-20">
+          <div><img src="./img/slide-numbers.svg" alt="slide-numbers"></div>
+        </div>
+      </div>
+
+      <div class="col-span-7 relative">
+        <img src="./img/modern-building.svg" alt="Modern building" class="object-cover" />
+        <div class="bg-[#FFFFFF] absolute bottom-0 py-6 pr-20 pl-6 flex">
+          <h6 class="font-normal text-[12px] text-[#333333]">View Project</h6>
+          <span class="lg:text-[12px] text-[16px] text-[#333333] pl-5"><i
+              class="fa-solid fa-arrow-right-long"></i></span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-gray-50 text-gray-800 py-12 px-4 md:px-12 lg:mt-28">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:pl-6">
+
+      <div class="order-1 lg:order-2">
+        <h2 class="text-6xl font-light mb-4 text-gray-600">About</h2>
+        <p class="text-gray-700 mb-4 lg:w-[402px]">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+          make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+          typesetting, remaining essentially unchanged.
+        </p>
+        <a href="#"
+          class="inline-block py-6 pr-20 pl-6 text-sm font-medium text-gray-800 bg-[#FFFFFF] hover:bg-gray-200 transition">
+          READ MORE <span class="pl-4"><i class="fa-solid fa-arrow-right-long"></i></span>
+        </a>
+      </div>
+
+      <div class="flex lg:flex-wrap gap-4 order-2 lg:order-1">
+        <div>
+          <img src="./img/image-one.svg" alt="Building 1" class="object-cover">
+          <img src="./img/image-two.svg" alt="Building 2" class="object-cover pt-4">
+        </div>
+        <img src="./img/image-three.svg" alt="Abstract"
+          class="object-cover row-span-2 lg:py-8 h-[242px] lg:h-[409px] pt-6">
+      </div>
+
+    </div>
+  </section>
+  <section class="bg-white text-gray-800 px-4 py-12 md:px-12">
+    <div class="max-w-7xl mx-auto">
+
+      <h2 class="text-3xl md:text-5xl text-[#BDBDBD] font-light mb-12">Main Focus/Mission Statement</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+
+        <div class="flex gap-6 items-center">
+          <span class="text-[200px] font-bold text-[#BDBDBD] leading-none">1</span>
+          <p class="text-2xl text-gray-600 lg:w-[347px]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat.
+          </p>
+        </div>
+
+        <div class="flex items-center gap-6">
+          <span class="text-[200px] font-bold text-[#BDBDBD] leading-none">2</span>
+          <p class="text-[20px] text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed efficitur, lectus et facilisis placerat, magna mauris
+            porttitor tortor, a auctor est felis ut nisl.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<section class="bg-black text-white px-4 py-16 md:px-12">
+  <div class="max-w-7xl mx-auto space-y-12">
+
+    <h2 class="text-4xl md:text-6xl font-light">Our Projects</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+      <div class="relative h-72 md:h-full">
+        <img src="project1.jpg" alt="Sample Project" class="w-full h-full object-cover rounded">
+        <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center px-6">
+          <h3 class="text-4xl font-bold">Sample <br> Project</h3>
+          <a href="#" class="mt-4 text-sm text-white inline-flex items-center gap-2 border-b border-white pb-1 hover:text-gray-300">
+            VIEW MORE <span>→</span>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <img src="project2.jpg" alt="Project 2" class="w-full h-full object-cover rounded">
+      </div>
+
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <img src="project3.jpg" alt="Project 3" class="w-full h-60 object-cover rounded">
+      <img src="project4.jpg" alt="Project 4" class="w-full h-60 object-cover rounded">
+      <img src="project5.jpg" alt="Project 5" class="w-full h-60 object-cover rounded">
+    </div>
+
+    <div class="text-right">
+      <a href="#" class="inline-block bg-[#212121] text-white px-6 py-3 text-sm tracking-widest rounded hover:bg-gray-800 transition">
+        ALL PROJECTS →
+      </a>
+    </div>
+
+  </div>
+</section>
+
+</body>
+
+</html>
