@@ -46,7 +46,7 @@
             <li><a href="#" class="block py-2 px-3 hover:border-y-2 font-bold text-[12px]">CONTACTS</a></li>
             <li><a href="#"
                 class="block py-2 px-3 border border-yellow-500 text-yellow-700 font-semibold rounded-full text-center hover:bg-yellow-500 hover:text-white">
-                Beratung Vereinbaren →
+                Beratung Vereinbaren <i class="fa-solid fa-arrow-right-long"></i>
               </a>
             </li>
           </ul>
@@ -66,10 +66,10 @@
 
         <div class="flex items-center gap-4 mt-10 lg:mt-18 lg:text-[12px] text-[26px]">
           <button class="border border-gray-300 rounded px-4 py-2">
-            ←
+            <i class="fa-solid fa-arrow-right-long"></i>
           </button>
           <button class="border border-gray-300 rounded px-4 py-2">
-            →
+            <i class="fa-solid fa-arrow-right-long"></i>
           </button>
         </div>
 
@@ -111,7 +111,7 @@
           <img src="./img/image-two.svg" alt="Building 2" class="object-cover pt-4">
         </div>
         <img src="./img/image-three.svg" alt="Abstract"
-          class="object-cover row-span-2 lg:py-8 h-[242px] lg:h-[409px] pt-6">
+          class="object-cover row-span-2 lg:py-8 h-[264px] lg:h-[409px] pt-6">
       </div>
 
     </div>
@@ -124,15 +124,15 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
 
         <div class="flex gap-6 items-center">
-          <span class="text-[200px] font-bold text-[#BDBDBD] leading-none">1</span>
-          <p class="text-2xl text-gray-600 lg:w-[347px]">
+          <span class="lg:text-[200px] text-[180px] font-bold text-[#BDBDBD] leading-none">1</span>
+          <p class="lg:text-2xl text-lg text-gray-600 lg:w-[347px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat.
           </p>
         </div>
 
         <div class="flex items-center gap-6">
-          <span class="text-[200px] font-bold text-[#BDBDBD] leading-none">2</span>
-          <p class="text-[20px] text-gray-600">
+          <span class="lg:text-[200px] text-[160px] font-bold text-[#BDBDBD] leading-none">2</span>
+          <p class="lg:text-[20px] text-sm text-gray-600">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Sed efficitur, lectus et facilisis placerat, magna mauris
             porttitor tortor, a auctor est felis ut nisl.
@@ -190,10 +190,10 @@
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div class="relative group h-72 cursor-pointer rounded overflow-hidden">
           <img src="./img/projectimg-4.svg" alt="Project Image"
-            class="w-[363px] lg:h-[220px] h-[373px] object-cover rounded">
+            class="lg:w-[363px] w-[396px] lg:h-[220px] h-[373px] object-cover rounded">
 
           <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <img src="./img/hover-img.png" alt="Overlay" class="lg:h-[221px] h-[373px] w-[363px] object-cover rounded">
+            <img src="./img/hover-img.png" alt="Overlay" class="lg:h-[221px] h-[373px] lg:w-[363px] w-[396px] object-cover rounded">
           </div>
 
           <div
@@ -252,12 +252,12 @@
   </section>
 <section>
 <div class="grid lg:grid-cols-12 grid-cols-1 px-4 items-center">
-  <div class="col-span-7 order-1 lg:order-2 flex justify-center p-4">
+  <div class="col-span-7 order-1 lg:order-2 flex justify-center lg:p-4 ">
     <img src="./img/contact-image.svg" alt="Contact Image" class="object-cover" />
   </div>
 
-  <div class="col-span-5 order-2 lg:order-1 p-8">
-    <h1 class="text-4xl lg:text-6xl roboto font-light text-gray-300 mb-8">Contact Us</h1>
+  <div class="col-span-5 order-2 lg:order-1 lg:p-8">
+    <h1 class="text-4xl lg:text-6xl roboto font-light text-gray-300 my-8">Contact Us</h1>
     <form class="space-y-4">
       <input type="text" placeholder="Name" class="roboto w-full p-3 bg-gray-100 text-black rounded" />
       <input type="tel" placeholder="Phone Number*" required class="roboto w-full p-3 bg-gray-100 text-black rounded" />
@@ -265,7 +265,7 @@
       <input type="text" placeholder="Interested In" class="roboto w-full p-3 bg-gray-100 text-black rounded" />
       <textarea placeholder="Message*" required class="roboto w-full p-3 h-32 bg-gray-100 text-black rounded"></textarea>
       <button type="submit" class="roboto bg-gray-800 hover:bg-gray-700 text-white px-6 py-3 rounded flex items-center gap-2 uppercase tracking-widest">
-        Send Email <span class="text-lg">→</span>
+        Send Email <span class="text-lg"><i class="fa-solid fa-arrow-right-long"></i></span>
       </button>
     </form>
   </div>
